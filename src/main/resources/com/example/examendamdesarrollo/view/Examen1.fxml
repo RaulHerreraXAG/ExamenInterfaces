@@ -93,16 +93,16 @@
                         <Insets right="10.0" />
                      </GridPane.margin>
                   </ComboBox>
+                  <RadioButton fx:id="RBStandard" mnemonicParsing="false" text="Standard" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets top="-50.0" />
+                     </GridPane.margin>
+                  </RadioButton>
                   <RadioButton fx:id="rbOferta" mnemonicParsing="false" text="Oferta" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                   <RadioButton fx:id="RBLarga" mnemonicParsing="false" text="Larga duración" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <GridPane.margin>
                         <Insets top="50.0" />
                      </GridPane.margin>
-                  </RadioButton>
-                  <RadioButton fx:id="RBStandard" mnemonicParsing="false" text="Standard" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
-                     <padding>
-                        <Insets bottom="50.0" />
-                     </padding>
                   </RadioButton>
                   <DatePicker fx:id="dateEntrada" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                   <DatePicker fx:id="dateSalida" GridPane.columnIndex="1" GridPane.rowIndex="5" />
